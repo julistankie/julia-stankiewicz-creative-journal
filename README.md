@@ -24,19 +24,11 @@ This remote workspace cannot open VS Code on your own computer. Complete those o
 
 ## Draft features
 
-The counter counts distinct activity dates, across all time. Its six dates are sample data, not Julia's activity history. Craft buttons show the days for a selected medium.
+The counter counts distinct activity dates, across all time. Its six dates are sample data, not my actual activity history. Craft buttons show the days for a selected medium.
 
 Gallery filters work together. Clicking a photo opens a larger view, closed with Close, Escape, or the outside backdrop. The Google Map switches between five inspiration places, showing one place at a time. FAQ buttons expand their answers.
 
 Add Entry requires a photo, title, and activity date. Craft, project, and note are optional. Choosing Create new project reveals a required project-name field. The form creates a preview only in the current tab. It does not upload, save permanently, or change the public Gallery. Refreshing clears the preview. The class version's Gallery is edited directly in the HTML.
-
-## Before final submission
-
-- Replace all six reference photos and sample dates with Julia's actual projects. Use source photos at least 1250 pixels wide and update captions, alt text, craft labels, and projects.
-- Update the `activityDates` list in `script.js` to match the real activity dates.
-- Replace the temporary drawing tutorial with Julia's own vertical 9:16 fineliner clip. Change its CSS aspect ratio to `9 / 16` when replacing it.
-- Put Julia's chosen email address after `mailto:` in all three footer links. The draft link opens an email composer with a subject but has no recipient yet.
-- Check the photo picker and preview on a phone.
 
 ## Brand
 
@@ -46,14 +38,12 @@ Forest `#284B37`, cream `#F5F0DF`, sage `#BAC7A6`, ink `#28352B`, muted `#606B5D
 
 ## Credits
 
-Concept and design preferences: Julia Stankiewicz. AI assistance: OpenAI ChatGPT/Codex helped prepare first-draft HTML, CSS, JavaScript, written copy, and presentation materials. Julia should review and adapt the work for the course.
+Concept and design preferences: Julia Stankiewicz. AI assistance: OpenAI ChatGPT/Codex helped prepare first-draft HTML, CSS, JavaScript, written copy, and presentation materials. 
 
-Reference photos are from Pexels and are labeled as references, not Julia's work. Individual photographer, source, license, dimensions, and alt text appear in `images/credits.json` and the Gallery photo credits. Photographers: Anete Lusina, Ivan S, Berna, Pavel Danilyuk, and Saundarya Srinivasan. License: https://www.pexels.com/license/
+Reference photos are from Pexels and are labeled as references, not my work. Individual photographer, source, license, dimensions, and alt text appear in `images/credits.json` and the Gallery photo credits. Photographers: Anete Lusina, Ivan S, Berna, Pavel Danilyuk, and Saundarya Srinivasan. License: https://www.pexels.com/license/
 
 Temporary video: Sakura of America, “Sakura Creative Kit — Cherry Blossom.” Source: https://www.sakuraofamerica.com/cherry-blossom-creative-kit/ . Embedded video: https://www.youtube.com/watch?v=--EoHSBART8 . Julia's own clip has not been supplied.
 
 Bree Serif: Google Fonts, under the SIL Open Font License included in `fonts/OFL.txt`.
 
 Inspiration places link to official visitor information on the Home page. The embedded interactive map is provided by Google Maps. Pinterest references informed the earlier mood board.
-
-The Week 10 Figma deck could not be retrieved in this environment. Features follow the written assignment requirements.
