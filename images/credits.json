@@ -1,0 +1,74 @@
+[
+  {
+    "filename": "sample-crochet.jpg",
+    "photographer": "Anete Lusina",
+    "source_url": "https://www.pexels.com/photo/crop-woman-holding-yarn-and-crochet-hook-4792067/",
+    "alt": "Reference photo of hands holding a pink crochet hook and dusty pink yarn.",
+    "title": "Reference photo: Beginning a crochet project",
+    "width": 1600,
+    "height": 2397,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  },
+  {
+    "filename": "sample-yarn.jpg",
+    "photographer": "Anete Lusina",
+    "source_url": "https://www.pexels.com/photo/crochet-needles-and-threads-on-windowsill-4792084/",
+    "alt": "Reference photo of colorful metal crochet hooks beside a ball of dusty pink yarn on a white windowsill.",
+    "title": "Reference photo: Crochet hooks and yarn",
+    "width": 1600,
+    "height": 1068,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  },
+  {
+    "filename": "sample-sketch.jpg",
+    "photographer": "Ivan S",
+    "source_url": "https://www.pexels.com/photo/person-drawing-on-a-sketchbook-4238483/",
+    "alt": "Reference photo of a hand making pencil sketches in a spiral-bound sketchbook on a gray table.",
+    "title": "Reference photo: Pencil sketchbook study",
+    "width": 1600,
+    "height": 1067,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  },
+  {
+    "filename": "sample-markers.jpg",
+    "photographer": "Berna",
+    "source_url": "https://www.pexels.com/photo/creative-art-project-with-markers-and-sketchbook-35597256/",
+    "alt": "Reference photo of hands coloring a green tree in a sketchbook, surrounded by markers, pencils, and brushes.",
+    "title": "Reference photo: A colorful sketchbook session",
+    "width": 1600,
+    "height": 2400,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  },
+  {
+    "filename": "sample-paint.jpg",
+    "photographer": "Pavel Danilyuk",
+    "source_url": "https://www.pexels.com/photo/watercolors-and-paintbrushes-6925031/",
+    "alt": "Reference photo of pointed paintbrushes resting diagonally across used watercolor palettes.",
+    "title": "Reference photo: Watercolors and paintbrushes",
+    "width": 1600,
+    "height": 1068,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  },
+  {
+    "filename": "sample-watercolor.jpg",
+    "photographer": "Saundarya Srinivasan",
+    "source_url": "https://www.pexels.com/photo/art-materials-on-white-cloth-5152829/",
+    "alt": "Reference photo of a watercolor wreath of green leaves and pink flowers, with brushes, paint tubes, and a palette on white cloth.",
+    "title": "Reference photo: Botanical watercolor wreath",
+    "width": 1600,
+    "height": 2133,
+    "license_url": "https://www.pexels.com/license/",
+    "reference_photo": true,
+    "attribution_note": "Temporary reference photo from Pexels; not Julia's own work."
+  }
+]

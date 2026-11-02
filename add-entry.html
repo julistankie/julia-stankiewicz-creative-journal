@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preview a dated photo of your creative session, with optional craft, project, and notes.">
+  <title>Add Entry | julia.stan</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <!-- SHARED HEADER AND THREE-PAGE NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="wordmark">julia.stan</span><small>a creative journal</small></a>
+      <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="add-entry.html" aria-current="page">Add Entry</a></nav>
+    </div>
+  </header>
+  <main id="main-content" class="container">
+    <section class="page-heading"><div><p class="eyebrow">A moment worth keeping</p><h1>Add Entry</h1><p>Keep a record of what you made today, or add an older session you want to remember. Start with a photo, a title, and the activity date.</p></div></section>
+    <div class="entry-layout">
+      <!-- REQUIRED PHOTO, TITLE, AND DATE; EVERYTHING ELSE IS OPTIONAL -->
+      <form id="entry-form" class="entry-form">
+        <p class="caption">Photo, activity title, and activity date are required.</p>
+        <div class="form-field"><label for="entry-photo">Photo *</label><div class="photo-picker"><input type="file" id="entry-photo" name="photo" accept="image/*" aria-describedby="photo-hint" required><p id="photo-hint" class="caption">Choose an image from your device. On a phone, the picker may also offer a camera option.</p><img id="selected-photo" class="selected-photo" alt="Selected photo for this entry" hidden></div></div>
+        <div class="form-field"><label for="entry-title">Activity title *</label><input id="entry-title" name="title" type="text" placeholder="A few words about what you worked on" required></div>
+        <div class="two-fields">
+          <div class="form-field"><label for="entry-date">Activity date *</label><input id="entry-date" name="date" type="date" required><p class="caption">Choose the day you worked on it.</p></div>
+          <div class="form-field"><label for="entry-craft">Craft <span class="caption">(optional)</span></label><select id="entry-craft" name="craft"><option value="">Unsorted</option><option value="Crochet">Crochet</option><option value="Painting">Painting</option><option value="Markers">Markers</option><option value="Fineliners">Fineliners</option><option value="Sketching">Sketching</option><option value="Graphic design">Graphic design</option></select></div>
+        </div>
+        <div class="form-field"><label for="entry-project">Project <span class="caption">(optional)</span></label><select id="entry-project" name="project"><option value="">No project</option><option value="Yarn notes">Yarn notes (sample)</option><option value="Sketchbook pages">Sketchbook pages (sample)</option><option value="Colour studies">Colour studies (sample)</option><option value="new">Create a new project</option></select></div>
+        <div id="new-project-field" class="form-field" hidden><label for="new-project-name">New project name</label><input id="new-project-name" name="new-project" type="text" placeholder="Give this project a name"></div>
+        <div class="form-field"><label for="entry-notes">A note to remember <span class="caption">(optional)</span></label><textarea id="entry-notes" name="notes" rows="4" placeholder="Something you tried, learned, or want to revisit"></textarea></div>
+        <div class="actions"><button class="button" type="submit">Preview Entry</button><button class="button secondary" type="reset">Clear</button></div>
+        <p class="caption" style="margin-top: 14px;">Class preview: your entry stays in this tab.</p>
+        <p id="form-message" class="form-message" role="status"></p>
+      </form>
 
+      <!-- LOCAL PREVIEW: EMPTY OPTIONAL FIELDS STAY HIDDEN -->
+      <aside class="entry-aside"><p class="eyebrow">No perfect words needed</p><h2>Just enough<br>to remember.</h2><p>A little progress counts. You can leave a project or note for another day.</p><p class="caption">This first draft previews your photo here. It does not upload or publish it, and refreshing the page clears the preview.</p><section id="entry-preview" class="preview-card" aria-labelledby="preview-heading" hidden><h3 id="preview-heading">Your entry preview</h3><img id="preview-photo" alt=""><h3 id="preview-title"></h3><p id="preview-date" class="caption"></p><p id="preview-craft" class="caption" hidden></p><p id="preview-project" hidden></p><p id="preview-notes" class="preview-notes" hidden></p></section></aside>
+    </div>
+  </main>
+  <!-- SHARED FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Made by Julia. A creative journal.</p>
+      <div class="footer-links">
+        <a href="gallery.html">Gallery</a>
+        <a href="add-entry.html">Add Entry</a>
+        <!-- Add Julia's chosen contact address after mailto: before the final submission. -->
+        <a href="mailto:?subject=Hello%20from%20julia.stan" title="Draft link: contact address to be added">Email Julia</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
