@@ -47,3 +47,9 @@ Temporary video: Sakura of America, “Sakura Creative Kit — Cherry Blossom.�
 Bree Serif: Google Fonts, under the SIL Open Font License included in `fonts/OFL.txt`.
 
 Inspiration places link to official visitor information on the Home page. The embedded interactive map is provided by Google Maps. Pinterest references informed the earlier mood board.
+
+## Draft 2 progress
+
+Hover and active states now cover links and buttons. Current-page navigation uses a persistent underline. Font sizes use rem units. Flexible grid columns, responsive photos and media, and narrow-screen form stacking were checked at desktop width and in live 390px browser frames.
+
+All nine authored text/background combinations pass WebAIM AA normal-text contrast. Evidence and check notes are in `docs/`. The content replacement requirement remains incomplete until my original photos, activity dates and titles, process video, and email address are supplied. Existing reference photos remain clearly labeled.

@@ -176,6 +176,7 @@ if (entryForm) {
     result.hidden = true;
     document.querySelector("#new-project-field").hidden = true;
     newProject.required = false;
+    setTimeout(() => { document.querySelector("#entry-date").value = localDate; }, 0);
     message.textContent = "";
   });
 }

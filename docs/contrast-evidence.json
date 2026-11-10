@@ -1,0 +1,119 @@
+[
+  {
+    "foreground": "#284B37",
+    "background": "#F5F0DF",
+    "usage": "Headings, links, menu, labels and unselected controls",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=284B37&bcolor=F5F0DF&api",
+    "result": {
+      "ratio": "8.55",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#28352B",
+    "background": "#F5F0DF",
+    "usage": "Body text, dialogs, link hover and active",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=28352B&bcolor=F5F0DF&api",
+    "result": {
+      "ratio": "11.2",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#606B5D",
+    "background": "#F5F0DF",
+    "usage": "Captions and helper text",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=606B5D&bcolor=F5F0DF&api",
+    "result": {
+      "ratio": "4.89",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "fail",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#F5F0DF",
+    "background": "#284B37",
+    "usage": "Primary buttons, selected crafts and pressed controls",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=F5F0DF&bcolor=284B37&api",
+    "result": {
+      "ratio": "8.55",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#F5F0DF",
+    "background": "#28352B",
+    "usage": "Primary hover and active, selected craft hover",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=F5F0DF&bcolor=28352B&api",
+    "result": {
+      "ratio": "11.2",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#284B37",
+    "background": "#BAC7A6",
+    "usage": "Secondary/button/menu hover and footer links",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=284B37&bcolor=BAC7A6&api",
+    "result": {
+      "ratio": "5.48",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "fail",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#28352B",
+    "background": "#BAC7A6",
+    "usage": "Footer text and footer link hover/active",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=28352B&bcolor=BAC7A6&api",
+    "result": {
+      "ratio": "7.22",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#28352B",
+    "background": "#FFFDF7",
+    "usage": "Input, select and textarea text",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=28352B&bcolor=FFFDF7&api",
+    "result": {
+      "ratio": "12.6",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "pass",
+      "AAALarge": "pass"
+    }
+  },
+  {
+    "foreground": "#606B5D",
+    "background": "#FFFDF7",
+    "usage": "Input and textarea placeholder hints",
+    "url": "https://webaim.org/resources/contrastchecker/?fcolor=606B5D&bcolor=FFFDF7&api",
+    "result": {
+      "ratio": "5.49",
+      "AA": "pass",
+      "AALarge": "pass",
+      "AAA": "fail",
+      "AAALarge": "pass"
+    }
+  }
+]
