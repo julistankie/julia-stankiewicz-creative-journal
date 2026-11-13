@@ -109,7 +109,7 @@ select, input[type="text"], input[type="date"], textarea { width: 100%; min-heig
 .photo-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 .journal-entry { margin: 0 0 24px; }
 .photo-button { display: block; width: 100%; padding: 0; border: 0; border-radius: 12px; overflow: hidden; background: var(--sage); }
-.photo-button img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; transition: transform .2s; }
+.photo-button img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: contain; transition: transform .2s; }
 .photo-button:hover img { transform: scale(1.035); }
 .journal-entry h3 { margin: 15px 0 6px; font-size: 1.3125rem; }
 .journal-entry p { margin: 5px 0 0; }
@@ -243,3 +243,6 @@ select:active, input:active, textarea:active { outline: 2px solid var(--forest);
   .footer-links { gap: 18px; }
   .map-frame { height: 20rem; }
 }
+
+/* Preserve full artwork and the original portrait video proportions. */
+.process-video { width: min(100%, 22rem); height: auto; aspect-ratio: 512 / 910; margin-inline: auto; border-radius: 16px; background: var(--sage); }

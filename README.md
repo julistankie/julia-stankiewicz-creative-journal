@@ -14,17 +14,17 @@ This remote workspace cannot open VS Code on your own computer. Complete those o
 ## Files
 
 - `index.html`: introduction, craft-day counter, process video, Google Map, FAQ.
-- `gallery.html`: six photo entries grouped by month, craft/project filters, larger-photo dialog.
+- `gallery.html`: four original photo entries grouped by month, craft/project filters, larger-photo dialog.
 - `add-entry.html`: local photo preview with required photo, title, and date.
 - `style.css`: shared green/cream palette, typography, responsive layout, keyboard focus styles.
 - `script.js`: counter, filters, lightbox, map buttons, FAQ, form preview.
-- `images/`: six temporary reference photos, favicon, and source credits.
+- `images/`: original artwork photographs, video poster, favicon, and credits.
 - `fonts/`: Bree Serif and its Open Font License.
-- `video/`: instructions for adding the original process clip.
+- `video/`: original drawing process clip.
 
 ## Draft features
 
-The counter counts distinct activity dates, across all time. Its six dates are sample data, not my actual activity history. Craft buttons show the days for a selected medium.
+The counter counts distinct activity dates, across all time. The four dates come from Julia’s supplied activity dates. Craft buttons show the days for a selected medium.
 
 Gallery filters work together. Clicking a photo opens a larger view, closed with Close, Escape, or the outside backdrop. The Google Map switches between five inspiration places, showing one place at a time. FAQ buttons expand their answers.
 
@@ -40,9 +40,7 @@ Forest `#284B37`, cream `#F5F0DF`, sage `#BAC7A6`, ink `#28352B`, muted `#606B5D
 
 Concept and design preferences: Julia Stankiewicz. AI assistance: OpenAI ChatGPT/Codex helped prepare first-draft HTML, CSS, JavaScript, written copy, and presentation materials. 
 
-Reference photos are from Pexels and are labeled as references, not my work. Individual photographer, source, license, dimensions, and alt text appear in `images/credits.json` and the Gallery photo credits. Photographers: Anete Lusina, Ivan S, Berna, Pavel Danilyuk, and Saundarya Srinivasan. License: https://www.pexels.com/license/
-
-Temporary video: Sakura of America, “Sakura Creative Kit — Cherry Blossom.” Source: https://www.sakuraofamerica.com/cherry-blossom-creative-kit/ . Embedded video: https://www.youtube.com/watch?v=--EoHSBART8 . Julia's own clip has not been supplied.
+Artwork, photographs, and drawing process video: Julia Stankiewicz. Contact address is used exactly as supplied.
 
 Bree Serif: Google Fonts, under the SIL Open Font License included in `fonts/OFL.txt`.
 
@@ -52,4 +50,4 @@ Inspiration places link to official visitor information on the Home page. The em
 
 Hover and active states now cover links and buttons. Current-page navigation uses a persistent underline. Font sizes use rem units. Flexible grid columns, responsive photos and media, and narrow-screen form stacking were checked at desktop width and in live 390px browser frames.
 
-All nine authored text/background combinations pass WebAIM AA normal-text contrast. Evidence and check notes are in `docs/`. The content replacement requirement remains incomplete until my original photos, activity dates and titles, process video, and email address are supplied. Existing reference photos remain clearly labeled.
+All nine authored text/background combinations pass WebAIM AA normal-text contrast. Evidence and check notes are in `docs/`. All sample artwork, dates, video, project labels, and contact links have been replaced. Four original photos are supplied at 1152 × 1536 pixels. The earlier project brief requires six different photos at least 1250 pixels wide, so two additional photos and higher-resolution originals remain needed. Add Entry is still a local preview.

@@ -1,46 +1,26 @@
 {
-  "date": "2026-11-09",
   "pages": [
-    {
-      "page": "index.html",
-      "boilerplate": "pass",
-      "navigation": "pass",
-      "live_copy_words": 215,
-      "desktop_width": 1363,
-      "phone_frame_width": 390,
-      "horizontal_overflow": false
-    },
-    {
-      "page": "gallery.html",
-      "boilerplate": "pass",
-      "navigation": "pass",
-      "live_copy_words": 228,
-      "desktop_width": 1363,
-      "phone_frame_width": 390,
-      "horizontal_overflow": false
-    },
-    {
-      "page": "add-entry.html",
-      "boilerplate": "pass",
-      "navigation": "pass",
-      "live_copy_words": null,
-      "desktop_width": 1363,
-      "phone_frame_width": 390,
-      "horizontal_overflow": false
-    }
+    "index.html",
+    "gallery.html",
+    "add-entry.html"
   ],
-  "browser_checks": [
-    "Gallery: Crochet filter returns 2 photos",
-    "Photo lightbox opens and closes",
-    "Home: Crochet counter returns 2 days",
-    "FAQ expands an answer",
-    "Map changes to Yorba Regional Park",
-    "Photo preview uses a local blob URL",
-    "Empty optional preview fields stay hidden",
-    "New project and note appear when supplied",
-    "Form reset clears the preview"
-  ],
-  "content_status": "Incomplete: original project photos, dates, titles, original video and chosen email still needed",
-  "phone_test": "Live 390px browser frames, not device emulation. DevTools is disabled by browser policy.",
-  "contrast_scope": "Authored site text including hover, active and current states. Embedded Google/YouTube and native browser UI control their own appearance."
+  "boilerplate": "passed",
+  "navigation": "passed",
+  "local_assets": "passed",
+  "javascript_syntax": "passed",
+  "desktop_width": 1363,
+  "phone_frame_width": 390,
+  "horizontal_overflow": false,
+  "counter": "4 total, 2 fineliner days",
+  "gallery_filter": "2 fineliner photos",
+  "lightbox": "opens and closes",
+  "video": "playback verified; 84.97 seconds",
+  "photos": 4,
+  "source_dimensions": "1152x1536",
+  "remaining": [
+    "Two additional original photos",
+    "Original photos at least 1250 pixels wide",
+    "Instructor access to presentation link",
+    "Physical phone/camera-picker test"
+  ]
 }

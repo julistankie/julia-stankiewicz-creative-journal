@@ -1,12 +1,21 @@
-/* CRAFT COUNTER: sample dates for Draft 1.
-   Replace these with the dates and craft names of your own entries. */
+/* CRAFT COUNTER: actual dates documented in the Gallery. */
 const activityDates = [
-  { date: "2026-10-24", craft: "Crochet" },
-  { date: "2026-10-22", craft: "Markers" },
-  { date: "2026-10-18", craft: "Sketching" },
-  { date: "2026-10-15", craft: "Painting" },
-  { date: "2026-09-27", craft: "Crochet" },
-  { date: "2026-09-20", craft: "Painting" }
+  {
+    "date": "2026-11-09",
+    "craft": "Markers"
+  },
+  {
+    "date": "2026-11-07",
+    "craft": "Markers"
+  },
+  {
+    "date": "2026-10-02",
+    "craft": "Fineliners"
+  },
+  {
+    "date": "2026-10-01",
+    "craft": "Fineliners"
+  }
 ];
 
 const craftButtons = document.querySelectorAll(".craft-button");
