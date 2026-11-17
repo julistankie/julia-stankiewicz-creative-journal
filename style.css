@@ -222,7 +222,7 @@ a:active { color: var(--ink); text-decoration-thickness: 3px; }
 .place-button, .faq-question, .lightbox-close { border-radius: 5px; }
 .place-button:hover, .faq-question:hover, .lightbox-close:hover { background: var(--sage); color: var(--forest); }
 .place-button:active, .faq-question:active, .lightbox-close:active { background: var(--forest); color: var(--cream); }
-.place-button[aria-pressed="true"] { border-left: 3px solid var(--forest); padding-left: 10px; }
+.place-button[aria-pressed="true"] { border-left: 8px solid var(--forest); padding-left: 20px; }
 .photo-button:hover { outline: 3px solid var(--forest); outline-offset: 4px; }
 .photo-button:active { transform: scale(.98); }
 .photo-credits summary:hover { color: var(--ink); text-decoration: underline; }

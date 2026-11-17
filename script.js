@@ -1,6 +1,14 @@
 /* CRAFT COUNTER: actual dates documented in the Gallery. */
 const activityDates = [
   {
+    "date": "2026-11-16",
+    "craft": "Markers"
+  },
+  {
+    "date": "2026-11-14",
+    "craft": "Markers"
+  },
+  {
     "date": "2026-11-09",
     "craft": "Markers"
   },
